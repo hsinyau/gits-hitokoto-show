@@ -22,7 +22,6 @@
 
 3. Configure Environment Variables
    Set in `.github/workflows/update.yml`:
-   - `GIST_ID`: ID of your created gist (last part of URL)
    - `CATEGORY`: Hitokoto category code
      - Default value `abh` (Anime, Comics, Movies/TV)
      - Leave empty to get all categories
@@ -32,3 +31,4 @@
    - Go to repository Settings > Secrets
    - Click "New repository secret"
    - Add `GH_TOKEN`: Enter your created GitHub token
+   - Add `GIST_ID`: Enter the ID of your created gist (last part of URL)
